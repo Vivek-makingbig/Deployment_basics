@@ -6,6 +6,7 @@ function App() {
   const [users, setUsers] = useState([]);
 
   const API_URL = import.meta.env.VITE_API_URL;
+  console.log("api url:",API_URL);
 
   const getUsers = async () => {
     try {
